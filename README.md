@@ -5,6 +5,7 @@ This program searches for the longest sequence of average temperatures, in which
 
 ## Example
 
-|1 |2 | 3 |4|5|6|7|8|9|10|
--------------------------------
-|11|10|13|15|18|14|16|19|20|22|
+Day                             | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 |
+--------------------------------|---|---|---|---|---|---|---|---|---|---|
+Recorded average temperature    |11 |10 |13 |15 |18 |14 |16 |19 |20 |22 |
+
