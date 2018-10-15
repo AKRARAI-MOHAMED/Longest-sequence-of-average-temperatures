@@ -12,7 +12,7 @@ int ArrLen=0, i;
 
 int main(){
 
-cout << "Enter array length \n" << endl;
+cout << "\nEnter array length" << endl;
 
 cin >> ArrLen;
 
@@ -20,13 +20,13 @@ int Arr[ArrLen];
 
 for( i = 0 ; i<ArrLen ; i++){
 
-  cout << "Enter element number"<< i << ":\n  " << endl;
+  cout << "\nEnter element number"<< i << ":" << endl;
   
   cin >> Arr[i];
   
 }
 
-cout << " Entered array:\n " << endl;
+cout << "\n Entered array: " << endl;
 
 for( i = 0 ; i<ArrLen ; i++){
 
@@ -36,7 +36,7 @@ for( i = 0 ; i<ArrLen ; i++){
 
 cout << "\n" << endl;
 
-cout << " Enter parameter \n " << endl;
+cout << "\n Enter parameter " << endl;
 
 cin >> param;
 
@@ -44,9 +44,6 @@ std::pair <int,int> x;
 
 x = obj.GetStartDayAndSeqLength(Arr, ArrLen, param);
 
-cout << x.first << " " << x.second << endl;
+cout << " Start index: " << x.first << " Sequence length " << x.second << endl;
 
 }
-
-
-
