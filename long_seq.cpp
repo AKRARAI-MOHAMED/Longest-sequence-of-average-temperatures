@@ -6,7 +6,8 @@ Long_seq::Long_seq(){
 
   param = 5;
         
-} 
+}
+ 
 
 std::pair<int,int> Long_seq::GetStartDayAndSeqLength(int* P, int length, double param){
 
@@ -42,9 +43,9 @@ std::pair<int,int> Long_seq::GetStartDayAndSeqLength(int* P, int length, double 
       
         else{                
      
-          i = k+1;        
+          //i = k+1;        
           curr_seq = 0;
-          std::cout << "Break for J loop" << std::endl;
+          std::cout << "Break sequence loop" << std::endl;
           break;
       
         }
@@ -56,7 +57,7 @@ std::pair<int,int> Long_seq::GetStartDayAndSeqLength(int* P, int length, double 
       if(seq_len > max_seq){
           
         max_seq = seq_len;        
-        std::cout << "New max_seq:" << max_seq << std::endl;       
+        std::cout << "Found new max_seq:" << max_seq << std::endl;       
         start_index = i+1;
           
       }
@@ -72,7 +73,7 @@ std::pair<int,int> Long_seq::GetStartDayAndSeqLength(int* P, int length, double 
     
     if(seq_len == length){
     
-      std::cout << " FULL SEQUENCE " << std::endl;        
+      std::cout << " ARRAY IS A FULL SEQUENCE " << std::endl;        
       break;
           
       }
